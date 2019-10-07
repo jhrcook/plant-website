@@ -1,6 +1,6 @@
-baseURL: http://something-fresh.org/
+baseURL: https://joshsgarden.netlify.com
 languageCode: en-us
-title: Hugo Fresh Theme
+title: Josh's Plants
 theme: hugo-fresh
 googleAnalytics: #Put in your tracking code without quotes like this: UA-XXXXXX...
 #Disables warningss
@@ -19,11 +19,11 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Manage. Deploy.
+    title: Josh's Garden
     # Hero subtitle (optional)
-    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
+    subtitle: My collection of succulents and cacti as a piece of home in Boston.
     # Button text
-    buttontext: Get started
+    buttontext: Check out my projects
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from static/images/___)
@@ -37,42 +37,47 @@ params:
     - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Features
+  - title: All Plants
     url: /
-  - title: Pricing
-    url: /
-  - title: Dropdown
+  - title: Projects
     sublinks:
-    - title: Dropdown item
+    - title: Project 1
       url: /
-    - title: Dropdown item
+    - title: Project 2
       url: /
-    - title: Dropdown item
+    - title: Project 3
       url: /
-  - title: Log in
+  - title: Posts
     url: /
-  - title: Sign up
+  - title: About
+    url: /
+  - title: Contact
     url: /
     button: true
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: Featured Projects
+    subtitle: Some of my most recent and exciting projects.
     tiles:
-    - title: App builder
+    - title: "From Seed: Lithops (I)"
       icon: mouse-globe
-      text: This is some explanatory text that is on two rows
+      text: First attempt at growing "living stones" from seed.
       url: /
-      buttonText: Free trial
-    - title: Cloud integration
+      buttonText: Project Page
+    - title: "From Seed: Lithops (II)"
+      icon: mouse-globe
+      text: Second attempt at growing "living stones" from seed.
+      url: /
+      buttonText: Project Page
+    - title: "From Seed: Astrophytum"
+      icon: mouse-globe
+      text: First attempt at growing Astrophytum from seed.
+      url: /
+      buttonText: Project Page
+    - title: Haworthia Collection
       icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
+      text: "My (growing) collection of Haworthia."
       url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
-      icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
+      buttonText: Tour
   section2:
     title: You're here because you want the best
     subtitle: And we know it
