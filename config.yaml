@@ -8,11 +8,10 @@ disableKinds:
  -taxonomy
  -taxonomyTerm
 
-
 params:
   navbarlogo:
   # Logo (from static/images/logos/___)
-   image: logos/fresh.svg
+   image: cactus-17.svg
    link: /
   font:
     name: "Open Sans"
@@ -73,64 +72,51 @@ params:
       text: First attempt at growing Astrophytum from seed.
       url: /
       buttonText: Project Page
-    - title: Haworthia Collection
-      icon: laptop-cloud
-      text: "My (growing) collection of Haworthia."
-      url: /
-      buttonText: Tour
   section2:
-    title: You're here because you want the best
-    subtitle: And we know it
+    title: Species Collections
+    subtitle: I have small collections of a few succulent species.
     features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Lithops
+      text: These "living stones" are native to the dry, arid South African deserts where they see around just 2 inches of annual rainfall. I love their simplisitic, yet diverse designs and facinating yearly life-cycle.
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Haworthia
+      text: This common species makes wonderful house-plants because of their relatively low-light and care requirements. Their beautiful shapes and textures draw me in. 
       icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
   section3:
-    title: One platform
-    subtitle: To rule them all
+    title: Homemade Artifical LED Lighting System
+    subtitle: These plants need much more light than Boston can provide.
     image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
+    buttonText: Build Guide
     buttonLink: "#"
-  section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
+  # section4:
+#     title: Our Clients love us!
+#     subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+#     clients:
+#     - name: Irma Walters
+#       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+#       job: Accountant
+#       img: 1
+#     - name: John Bradley
+#       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+#       job: Financial Analyst
+#       img: 2
+#     - name: Gary Blackman
+#       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+#       job: HR Manager
+#       img: 3
   section5: true
   footer:
     # Logo (from /images/logos/___)
     logo: fresh-white-alt.svg
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
-      # Icons are from Font Awesome
-      icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
-    - link: https://facebook.com/#
-      icon: facebook
-    - link: https://twitter.com/lucperkins
+    - link: https://joshuacook.netlify.com
+      icon: user
+    - link: https://twitter.com/JoshDoesa
       icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
+    - link: https://github.com/jhrcook
+      icon: github
     bulmalogo: true
     quicklinks:
       column1:
