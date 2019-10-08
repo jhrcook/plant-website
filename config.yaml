@@ -11,7 +11,7 @@ disableKinds:
 params:
   navbarlogo:
   # Logo (from static/images/logos/___)
-   image: cactus-17.svg
+   image: logos/cactus-17.svg
    link: /
   font:
     name: "Open Sans"
@@ -26,14 +26,14 @@ params:
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from static/images/___)
-    image: illustrations/worker.svg
-    # Footer logos (from static/images/logos/clients/___.svg)
-    clientlogos:
-    - systek
-    - tribe
-    - kromo
-    - infinite
-    - gutwork
+    image: cactus-14.svg
+    # # Footer logos (from static/images/logos/clients/___.svg)
+    # clientlogos:
+    # - systek
+    # - tribe
+    # - kromo
+    # - infinite
+    # - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: All Plants
@@ -58,17 +58,17 @@ params:
     subtitle: Some of my most recent and exciting projects.
     tiles:
     - title: "From Seed: Lithops (I)"
-      icon: mouse-globe
+      icon: plant
       text: First attempt at growing "living stones" from seed.
       url: /
       buttonText: Project Page
     - title: "From Seed: Lithops (II)"
-      icon: mouse-globe
+      icon: plant
       text: Second attempt at growing "living stones" from seed.
       url: /
       buttonText: Project Page
     - title: "From Seed: Astrophytum"
-      icon: mouse-globe
+      icon: plant
       text: First attempt at growing Astrophytum from seed.
       url: /
       buttonText: Project Page
@@ -90,25 +90,16 @@ params:
     buttonText: Build Guide
     buttonLink: "#"
   # section4:
-#     title: Our Clients love us!
-#     subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-#     clients:
-#     - name: Irma Walters
-#       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-#       job: Accountant
-#       img: 1
-#     - name: John Bradley
-#       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-#       job: Financial Analyst
-#       img: 2
-#     - name: Gary Blackman
-#       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-#       job: HR Manager
-#       img: 3
+  #   title: Featured Posts
+  #   subtitle: I have written a few posts to help out other hobbiests (and future me)
+  #   clients:
+  #   - name: Sowing Lithops
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     img: cactus-9
   section5: true
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: cactus-17.svg
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
     - link: https://joshuacook.netlify.com
