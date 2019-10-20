@@ -50,7 +50,7 @@ params:
     url: /
   - title: About
     url: /
-  - title: Contact
+  - title: Contact Me
     url: /
     button: true
   section1:
@@ -86,7 +86,7 @@ params:
   section3:
     title: Homemade Artifical LED Lighting System
     subtitle: These plants need much more light than Boston can provide.
-    image: illustrations/mockups/app-mockup.png
+    image: illustrations/featured_images/led-lights_featured.png
     buttonText: Build Guide
     buttonLink: "#"
   # section4:
